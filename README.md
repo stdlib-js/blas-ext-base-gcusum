@@ -48,13 +48,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import gcusum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusum@esm/index.mjs';
+import gcusum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusum@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusum@esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusum@v0.2.0-esm/index.mjs';
 ```
 
 #### gcusum( N, sum, x, strideX, y, strideY )
@@ -181,7 +181,7 @@ gcusum.ndarray( N, 0.0, x, 2, 1, y, -1, y.length-1 );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import gcusum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusum@esm/index.mjs';
+import gcusum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusum@v0.2.0-esm/index.mjs';
 
 var y;
 var x;
