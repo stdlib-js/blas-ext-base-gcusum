@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-02-24)
+## 0.3.0 (2026-01-31)
 
 <section class="features">
 
@@ -22,6 +22,8 @@
 
 <details>
 
+-   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
+-   [`3e9f3a0`](https://github.com/stdlib-js/stdlib/commit/3e9f3a0bdc4c231521f39148dbff889815bae6d7) - **docs:** fix missing period _(by Athan Reines)_
 -   [`e5a8c65`](https://github.com/stdlib-js/stdlib/commit/e5a8c6593a68bdf3d385fbb4c1d75ba4309bad5d) - **feat:** add accessor arrays support to `blas/ext/base/gcusum` [(#5065)](https://github.com/stdlib-js/stdlib/pull/5065) _(by Muhammad Haris, stdlib-bot)_
 -   [`897aa61`](https://github.com/stdlib-js/stdlib/commit/897aa61d3548b7dceec551b64dd353d506bb307b) - **refactor:** update `blas/ext/base/gcusum` to follow current project conventions [(#4435)](https://github.com/stdlib-js/stdlib/pull/4435) _(by Muhammad Haris, Athan Reines)_
 
