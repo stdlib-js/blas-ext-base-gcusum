@@ -48,13 +48,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import gcusum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusum@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-gcusum/tags). For example,
+
+```javascript
 import gcusum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusum@v0.3.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusum@v0.3.0-esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusum@esm/index.mjs';
 ```
 
 #### gcusum( N, sum, x, strideX, y, strideY )
@@ -170,7 +175,7 @@ gcusum.ndarray( 4, 0.0, x, 2, 1, y, -1, y.length-1 );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import gcusum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusum@v0.3.0-esm/index.mjs';
+import gcusum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusum@esm/index.mjs';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float64'
