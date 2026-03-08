@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-08)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`89100b8`](https://github.com/stdlib-js/stdlib/commit/89100b8756289ccfd440069cbbc253d480352102) - **bench:** refactor to use string interpolation in blas/ext/base/gcusum [(#10816)](https://github.com/stdlib-js/stdlib/pull/10816) _(by Kamal Singh Rautela)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Kamal Singh Rautela
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.1">
 
 ## 0.3.1 (2026-02-08)
